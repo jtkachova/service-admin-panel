@@ -23,6 +23,9 @@ in app.py file function login specify ldap_server and user_dn variables.
 
 In *.php files  specify ip, username, password, path to key. Php files allow restart services remotely, in our case nginx and uwsgi.You can change services, which should be restart, in these files.
 
+###Run app
+
+python app.py
 
 
 
